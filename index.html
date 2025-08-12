@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Split Page Layout with Dynamic Slideshow</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+<div class="header">
+    <button class="header-button">Click Me</button>
+    <nav class="navigation">
+        <a href="#" class="nav-item">Home</a>
+        <a href="#" class="nav-item">About</a>
+        <a href="#" class="nav-item">Services</a>
+        <a href="#" class="nav-item">Portfolio</a>
+        <a href="#" class="nav-item">Contact</a>
+    </nav>
+</div>
+
+<div class="main-page">
+    <div class="left-section">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor.
+        </p>
+    </div>
+    <div class="right-section">
+        <div class="slideshow-container">
+            <!-- Slides will be dynamically inserted here -->
+        </div>
+    </div>
+</div>
+
+<script src="slideshow.js"></script>
 </body>
 </html>
